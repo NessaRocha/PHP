@@ -1,0 +1,22 @@
+body{
+    background-color: rgb(146, 179, 179);
+   align-content: center;
+}
+
+#button-primary{
+    background-color: rgb(67, 92, 67);
+    border-color: rgb(67, 92, 67);
+}
+
+#button-primary:hover{
+    background-color: rgb(146, 179, 179);
+    color:rgb(67, 92, 67);
+    border-color: rgb(67, 92, 67);
+}
+#margin-top{
+    margin-top: 100px;
+}
+h5{
+    text-align: center;
+    margin-top: 20px;
+}
