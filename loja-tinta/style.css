@@ -1,0 +1,23 @@
+
+
+body{
+    background-image: linear-gradient(to right, rgba(255, 0, 0, 0.603),rgba(255, 166, 0, 0.603),rgba(255, 255, 0, 0.603),rgba(0, 128, 0, 0.603),rgba(0, 0, 255, 0.603),rgba(76, 0, 130, 0.603),rgba(238, 130, 238, 0.603));
+   
+}
+
+
+.formulario {
+    background-color: rgba(240, 248, 255, 0.493);
+    padding: 20px;
+    width: 400px;
+    height: 560px;
+    border: 1px solid #09a55c17;
+    border-radius: 8%;
+    
+}
+
+
+form{
+    padding-left: 35%;
+    margin-top: 5%;
+}
