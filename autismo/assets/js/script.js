@@ -1,0 +1,4 @@
+
+function openNav(){
+    alert("Teste")
+}
