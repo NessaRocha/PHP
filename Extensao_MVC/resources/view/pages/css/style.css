@@ -1,0 +1,93 @@
+
+
+body{
+    background: linear-gradient(to right, #0d0933,  #18124e);  /* fallback for old browsers */
+background: linear-gradient(to right, #0d0933,  #18124e);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #0d0933,  #18124e); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+font-family: Arial, Helvetica, sans-serif;
+
+
+}
+
+
+nav{
+    
+    background-color:#a58150;
+    color: #0d0933;
+    
+}
+
+h1,h2,h4,h5,section{
+    color: #d2d0e3;
+    font-weight: 400px;
+    text-align: center;
+}
+
+label, label.form-label{
+    color:#d2d0e3
+}
+
+
+
+.row{
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+#button.btn.btn-primary.btn-lg {
+    
+    background-color: #a58150;
+    border-color: #a58150;
+    color:#18124e;
+    transform: translateX(260%);
+    
+    
+}
+#button.btn.btn-primary.btn-lg:hover {
+    
+    background-color: #18124e;
+    border-color: #a58150;
+    color:#a58150;
+    transform: translateX(260%) ;
+    
+}
+
+#button.btn.btn-primary{
+    
+    background-color: #a58150;
+    border-color: #a58150;
+    color:#18124e;
+    transform: translateX(100%) ;
+    margin-bottom: 5%;
+    margin-top: 5%;
+    
+}
+
+#button.btn.btn-primary:hover{
+    
+    background-color: #18124e;
+    border-color: #a58150;
+    color:#a58150;
+    transform: translateX(100%);
+    margin-bottom: 5%;
+    margin-top: 5%;
+    
+}
+
+#button.btn.btn-success{
+    background-color: #a58150;
+    border-color: #a58150;
+    color:#18124e;
+}
+#button.btn.btn-success:hover{
+    
+    background-color: #18124e;
+    border-color: #a58150;
+    color:#a58150;
+}
+#modalFlutuante{
+    background-color:  #18124e;
+}

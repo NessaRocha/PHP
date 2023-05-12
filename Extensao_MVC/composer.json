@@ -1,0 +1,21 @@
+{
+    "name": "variables/dot-env",
+    "description": "A simple library for managing environment variables in PHP.",
+    "type": "library",
+    "license": "GPL-3.0-or-later",
+    "authors": [
+        {
+            "name": "vanessarocha",
+            "email": "vanessadev@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Variables\\DotEnv\\": "src/"
+        }
+    },
+    "require": {
+        "php": ">=7.0",
+        "variables/dot-env": "^0.1.0"
+    }
+}

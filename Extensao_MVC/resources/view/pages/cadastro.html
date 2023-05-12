@@ -1,0 +1,66 @@
+<section>
+    <img src="/resources/view/pages/img/vanessa.png" alt="iniciar">
+</section>
+<div class="container">
+    <button type="button" id="button" class="btn btn-primary btn-lg" data-bs-toggle="modal"
+        data-bs-target="#cadPerguntaModal">
+        Cadastrar Pergunta
+    </button>
+
+    <!-- Modal -->
+    <div class="modal fade" id="cadPerguntaModal" tabindex="-1" aria-labelledby="cadPerguntaModal" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content" id="modalFlutuante">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-3" id="cadPerguntaModal">Cadastrar Pergunta</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <form method="post">
+                        <div class="container my-4 px-4 mr-2">
+                            <div class="row centralizar">
+                                <div class="id=form col-sm-12 col-md-6 col-lg-6 col-xg-5 py-4">
+                                    <div class="form-group">
+                                        <form class="mb-3">
+                                            <div class="form-check form-switch">
+
+                                                <label class="" for="flexSwitchCheckDefault">Status</label>
+                                                <input class="form-check-input" id="title" type="checkbox" name="status"
+                                                    role="switch" id="flexSwitchCheckDefault" required
+                                                    value="<?=$obPergunta->status?>">
+                                            </div>
+                                            <div class="form-group">
+                                                <div class="mb-3">
+                                                    <label for="title" class="form-label">Título</label>
+                                                    <input type="text" name="titulo" class="form-control" id="title"
+                                                        placeholder="Título" autofocus required
+                                                        value="<?=$obPergunta->titulo?>">
+                                                </div>
+                                                <div class="form-group">
+                                                    <div class="mb-3">
+                                                        <label for="description" class="form-label">Descrição</label>
+                                                        <input type="text" name="descricao" class="form-control"
+                                                            id="title" placeholder="Descrição" autofocus required
+                                                            value="<?=$obPergunta->descricao?>">
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </form>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" id="button" class="btn btn-success" data-bs-dismiss="modal">Adicionar
+                                Pergunta</button>
+                        </div>
+                </div>
+                <form>
+
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+</div>
+</div>
